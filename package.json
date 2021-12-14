@@ -1,0 +1,28 @@
+{
+  "name": "zerozip",
+  "version": "0.1.0a",
+  "main": "dist/index.js",
+  "types": "dist",
+  "typings": "dist/index.d.ts",
+  "module": "dist/zerozip.esm.js",
+  "description": "make zip to zero",
+  "scripts": {
+    "test": "tsdx test",
+    "build": "tsdx build"
+  },
+  "keywords": [
+    "TypeScript",
+    "Zip"
+  ],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "author": "boon4681",
+  "license": "MIT"
+}
