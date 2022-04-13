@@ -1,8 +1,9 @@
 # zerozip
+Make your zip zero.
+
 [![numbaht](https://img.shields.io/npm/v/zerozip.svg)](https://www.npmjs.com/package/zerozip)
 [![license-svg](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-Make your zip zero.
 ## Usage
 - Install with npm or yarn
 
@@ -14,8 +15,9 @@ Make your zip zero.
 - Example
   ```javascript
   import { zerozip } from 'zerozip'
-  
-  zerozip(Buffer)
+  import { readFileSync,writeFileSync } from 'fs'
+
+  writeFileSync("zero.zip",  zerozip(readFileSync("your_file.zip")))
   ```
 
 ## License
