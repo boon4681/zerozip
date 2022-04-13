@@ -1,6 +1,6 @@
 {
   "name": "zerozip",
-  "version": "0.1.0b",
+  "version": "0.1.0c",
   "main": "dist/index.js",
   "types": "dist",
   "typings": "dist/index.d.ts",
